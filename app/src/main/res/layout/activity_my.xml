@@ -20,8 +20,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Change Color"
         android:id="@+id/DoButton"
+        android:layout_below="@+id/TimeClock"
         android:layout_centerHorizontal="true"/>
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimeClock"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/DoButton"
+        android:layout_alignEnd="@+id/DoButton"
+        android:layout_alignLeft="@+id/DoButton"
+        android:layout_alignStart="@+id/DoButton"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#33ff0f"
+        android:background="#000000"/>
 
 </RelativeLayout>

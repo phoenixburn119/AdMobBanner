@@ -109,6 +109,9 @@ public class MyActivity extends ActionBarActivity {
         super.onDestroy();
     }
 
+    /**
+     * Creates a listener that changes background when button is pushed.
+     */
     private void setupListeners()
     {
         DoButton.setOnClickListener(new View.OnClickListener()
